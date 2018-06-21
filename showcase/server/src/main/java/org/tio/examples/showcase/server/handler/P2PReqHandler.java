@@ -64,7 +64,7 @@ public class P2PReqHandler extends AbsShowcaseBsHandler<P2PReqBody> {
 		ShowcasePacket respPacket = new ShowcasePacket();
 		respPacket.setType(Type.P2P_RESP);
 		respPacket.setBody(Json.toJson(p2pRespBody).getBytes(ShowcasePacket.CHARSET));
-		Tio.sendToUser(channelContext.getGroupContext(), bsBody.getToUserid(), respPacket);
+		Tio.sendToUser(channelContext.groupContext, bsBody.getToUserid(), respPacket);
 
 		return null;
 	}

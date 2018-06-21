@@ -60,7 +60,7 @@ public class GroupMsgReqHandler extends AbsShowcaseBsHandler<GroupMsgReqBody> {
 		ShowcasePacket respPacket = new ShowcasePacket();
 		respPacket.setType(Type.GROUP_MSG_RESP);
 		respPacket.setBody(Json.toJson(groupMsgRespBody).getBytes(ShowcasePacket.CHARSET));
-		Tio.sendToGroup(channelContext.getGroupContext(), bsBody.getToGroup(), respPacket);
+		Tio.sendToGroup(channelContext.groupContext, bsBody.getToGroup(), respPacket);
 
 		return null;
 	}
