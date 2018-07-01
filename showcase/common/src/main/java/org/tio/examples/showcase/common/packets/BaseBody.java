@@ -32,14 +32,14 @@ public class BaseBody {
 	}
 
 	/**
-	 * @return the time
+	 * @return the currTime
 	 */
 	public Long getTime() {
 		return time;
 	}
 
 	/**
-	 * @param time the time to set
+	 * @param currTime the currTime to set
 	 */
 	public void setTime(Long time) {
 		this.time = time;
