@@ -24,6 +24,8 @@
 		<module>../showcase/common</module>
 		<module>../showcase/client</module>
 		<module>../showcase/server</module>
+		
+		<module>../im/parent</module>
 
 	</modules>
 
