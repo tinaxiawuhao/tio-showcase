@@ -1,37 +1,37 @@
 # tio-showcase
 
-#### 项目介绍
-用于学习t-io的一些例子，可以当作项目脚手架来使用
+ **至理名言：学习[t-io](https://gitee.com/tywo45/t-io)最好的方式是从本项目开始** 
 
-#### 软件架构
-软件架构说明
-
-
-#### 安装教程
-
-1. xxxx
-2. xxxx
-3. xxxx
-
-#### 使用说明
-
-1. xxxx
-2. xxxx
-3. xxxx
-
-#### 参与贡献
-
-1. Fork 本项目
-2. 新建 Feat_xxx 分支
-3. 提交代码
-4. 新建 Pull Request
+## 项目介绍
+用于学习[t-io](https://gitee.com/tywo45/t-io)的一些例子，一共3个例子
 
 
-#### 码云特技
+- ### helloworld
+    - helloworld是入门[t-io](https://gitee.com/tywo45/t-io)最好的方式！而作者也是用心写了一个对生产项目有参考价值的hello tio，而不是仅仅是show hello而hello
+    - 服务器端入口程序：org.tio.examples.helloworld.server.HelloServerStarter
+    - 客户端入口程序：org.tio.examples.helloworld.client.HelloClientStarter
 
-1. 使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2. 码云官方博客 [blog.gitee.com](https://blog.gitee.com)
-3. 你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解码云上的优秀开源项目
-4. [GVP](https://gitee.com/gvp) 全称是码云最有价值开源项目，是码云综合评定出的优秀开源项目
-5. 码云官方提供的使用手册 [http://git.mydoc.io/](http://git.mydoc.io/)
-6. 码云封面人物是一档用来展示码云会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+    - 本例子演示的是一个典型的TCP长连接应用，大体业务简介如下。
+
+        - 分为server和client工程，server和client共用common工程
+        - 服务端和客户端的消息协议比较简单，消息头为4个字节，用以表示消息体的长度，消息体为一个字符串的byte[]
+        - 服务端先启动，监听6789端口
+        - 客户端连接到服务端后，会主动向服务器发送一条消息
+        - 服务器收到消息后会回应一条消息
+        - 之后，框架层会自动从客户端发心跳到服务器，服务器也会检测心跳有没有超时（这些事都是框架做的，业务层只需要配一个心跳超时参数即可）
+        - 框架层会在断链后自动重连（这些事都是框架做的，业务层只需要配一个重连配置对象即可）
+
+- ### showcase
+    - showcase工程用于进一步掌握t-io，甚至可以用作你项目的脚手架（@精灵007 同学已经用这个工程完成了3个项目）
+    - 这里有一篇博客，可以参考：[ShowCase设计分析](http://www.cnblogs.com/panzi/p/7814062.html)
+    - 服务器端入口程序：org.tio.examples.showcase.server.ShowcaseServerStarter
+    - 客户端入口程序：org.tio.examples.showcase.client.ShowcaseClientStarter
+
+- ### IM
+    - im项目在1.7.0版本前一直都开放的（见：[https://gitee.com/tywo45/t-io/tree/v1.7.0](https://gitee.com/tywo45/t-io/tree/v1.7.0)），考虑到im的复杂性，这会给作者带来一些额外的咨询工作，所以在后面的版本没有放出来，现在重新放出来
+    - j-im项目是在本项目的基础上改造而来的，有兴趣的可以看看j-im
+    - 服务器端入口程序：org.tio.examples.im.server.ImServerStarter
+    - 客户端入口程序：org.tio.examples.im.client.ImClientStarter
+    - 当年有用户用这个工程轰出每秒收发500万条聊天消息（当然现在[t-io](https://gitee.com/tywo45/t-io)加了各种流量监控后，简单测试发现性能大约降了一半）
+    ![每秒收发500万条聊天消息](https://gitee.com/tywo45/tio-side/raw/master/docs/performance/500%E4%B8%87.png "每秒收发500万条聊天消息")
+
