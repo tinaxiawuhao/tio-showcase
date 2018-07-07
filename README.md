@@ -35,3 +35,5 @@
     - 当年有用户用这个工程轰出每秒收发500万条聊天消息（当然现在[t-io](https://gitee.com/tywo45/t-io)加了各种流量监控后，简单测试发现性能大约降了一半）
     ![每秒收发500万条聊天消息](https://gitee.com/tywo45/tio-side/raw/master/docs/performance/500%E4%B8%87.png "每秒收发500万条聊天消息")
 
+## 母项目介绍
+ **[不仅仅是百万级网络编程框架](https://gitee.com/tywo45/t-io)，母项目才是作者花心血最多的项目！** 
