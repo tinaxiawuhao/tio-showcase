@@ -558,7 +558,7 @@ public class JFrameMain extends javax.swing.JFrame {
 		sentLabel = new javax.swing.JLabel();
 
 		setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-		setTitle("talent-im-client-3.1.2.v20180712-RELEASE");
+		setTitle("talent-im-client-3.1.3.v20180720-RELEASE");
 
 		serverip.setText("127.0.0.1");
 		serverip.addActionListener(new java.awt.event.ActionListener() {
