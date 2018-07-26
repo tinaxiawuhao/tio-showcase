@@ -2,8 +2,8 @@ package org.tio.examples.showcase.client.handler;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.tio.core.Tio;
 import org.tio.core.ChannelContext;
+import org.tio.core.Tio;
 import org.tio.examples.showcase.common.ShowcasePacket;
 import org.tio.examples.showcase.common.intf.AbsShowcaseBsHandler;
 import org.tio.examples.showcase.common.packets.JoinGroupRespBody;

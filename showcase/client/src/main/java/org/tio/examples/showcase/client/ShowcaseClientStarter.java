@@ -1,14 +1,13 @@
 package org.tio.examples.showcase.client;
 
-import org.apache.commons.lang3.StringUtils;
-import org.tio.client.TioClient;
 import org.tio.client.ClientChannelContext;
 import org.tio.client.ClientGroupContext;
 import org.tio.client.ReconnConf;
+import org.tio.client.TioClient;
 import org.tio.client.intf.ClientAioHandler;
 import org.tio.client.intf.ClientAioListener;
-import org.tio.core.Tio;
 import org.tio.core.Node;
+import org.tio.core.Tio;
 import org.tio.examples.showcase.common.Const;
 import org.tio.examples.showcase.common.ShowcasePacket;
 import org.tio.examples.showcase.common.Type;
@@ -17,6 +16,8 @@ import org.tio.examples.showcase.common.packets.JoinGroupReqBody;
 import org.tio.examples.showcase.common.packets.LoginReqBody;
 import org.tio.examples.showcase.common.packets.P2PReqBody;
 import org.tio.utils.json.Json;
+
+import cn.hutool.core.util.StrUtil;
 
 /**
  *
@@ -80,11 +81,11 @@ public class ShowcaseClientStarter {
 	}
 
 	public static void processCommand(String line) throws Exception {
-		if (StringUtils.isBlank(line)) {
+		if (StrUtil.isBlank(line)) {
 			return;
 		}
 
-		String[] args = StringUtils.split(line, " ");
+		String[] args = StrUtil.split(line, " ");
 		String command = args[0];
 
 		if ("login".equalsIgnoreCase(command)) {
