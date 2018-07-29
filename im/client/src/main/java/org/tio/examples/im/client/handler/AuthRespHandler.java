@@ -3,17 +3,18 @@
  */
 package org.tio.examples.im.client.handler;
 
-import org.apache.commons.lang3.RandomStringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.tio.core.Tio;
 import org.tio.core.ChannelContext;
+import org.tio.core.Tio;
 import org.tio.examples.im.common.ImPacket;
 import org.tio.examples.im.common.packets.Command;
 import org.tio.examples.im.common.packets.LoginReqBody;
 
 import com.typesafe.config.Config;
 import com.typesafe.config.ConfigFactory;
+
+import cn.hutool.core.util.RandomUtil;
 
 /**
  *
@@ -53,7 +54,8 @@ public class AuthRespHandler implements ImAioHandlerIntf {
 	 */
 	@Override
 	public Object handler(ImPacket packet, ChannelContext channelContext) throws Exception {
-		String loginname = RandomStringUtils.randomAlphabetic(5, 10);
+
+		String loginname = RandomUtil.randomString(8);//.randomAlphabetic(5, 10);
 		String password = "123456";
 		LoginReqBody reqBody = LoginReqBody.newBuilder().setLoginname(loginname).setPassword(password).build();
 		byte[] body = reqBody.toByteArray();

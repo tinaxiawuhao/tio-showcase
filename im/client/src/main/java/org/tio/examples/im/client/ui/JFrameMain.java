@@ -18,15 +18,14 @@ import java.util.concurrent.locks.ReentrantReadWriteLock.WriteLock;
 import javax.swing.DefaultListModel;
 import javax.swing.JList;
 
-import org.apache.commons.lang3.exception.ExceptionUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.tio.client.ClientChannelContext;
 import org.tio.client.ClientGroupContext;
 import org.tio.client.ClientGroupStat;
-import org.tio.core.Tio;
 import org.tio.core.ChannelContext;
 import org.tio.core.Node;
+import org.tio.core.Tio;
 import org.tio.core.stat.GroupStat;
 import org.tio.examples.im.client.ImClientStarter;
 import org.tio.examples.im.client.ui.component.ImListCellRenderer;
@@ -36,11 +35,12 @@ import org.tio.examples.im.common.packets.ChatReqBody;
 import org.tio.examples.im.common.packets.ChatType;
 import org.tio.examples.im.common.packets.Command;
 import org.tio.utils.SystemTimer;
-import org.tio.utils.lock.ObjWithLock;
 import org.tio.utils.lock.SetWithLock;
 
 import com.typesafe.config.Config;
 import com.typesafe.config.ConfigFactory;
+
+import cn.hutool.core.exceptions.ExceptionUtil;
 
 /**
  *
@@ -795,7 +795,7 @@ public class JFrameMain extends javax.swing.JFrame {
 				writeLock.unlock();
 			}
 		} catch (Exception e) {
-			String str = ExceptionUtils.getStackTrace(e);
+			String str = ExceptionUtil.stacktraceToString(e, 3000);
 			msgTextArea.append(str);
 		} finally {
 			//			lianjie.setEnabled(false);
