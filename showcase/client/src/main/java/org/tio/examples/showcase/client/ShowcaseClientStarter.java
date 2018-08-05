@@ -15,9 +15,8 @@ import org.tio.examples.showcase.common.packets.GroupMsgReqBody;
 import org.tio.examples.showcase.common.packets.JoinGroupReqBody;
 import org.tio.examples.showcase.common.packets.LoginReqBody;
 import org.tio.examples.showcase.common.packets.P2PReqBody;
+import org.tio.utils.hutool.StrUtil;
 import org.tio.utils.json.Json;
-
-import cn.hutool.core.util.StrUtil;
 
 /**
  *
@@ -85,7 +84,7 @@ public class ShowcaseClientStarter {
 			return;
 		}
 
-		String[] args = StrUtil.split(line, " ");
+		String[] args = line.split(" ");//StrUtil.split(line, " ");
 		String command = args[0];
 
 		if ("login".equalsIgnoreCase(command)) {
