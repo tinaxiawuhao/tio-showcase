@@ -2,12 +2,12 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<artifactId>tio-examples-helloworld-server</artifactId>
+	<artifactId>server</artifactId>
 	<name>${project.artifactId}</name>
 
 	<parent>
 		<groupId>org.t-io</groupId>
-		<artifactId>tio-examples-parent</artifactId>
+		<artifactId>parent</artifactId>
 		<version>3.1.5.v20180806-RELEASE</version>
 		<relativePath>../../parent/pom.xml</relativePath>
 	</parent>
@@ -20,7 +20,7 @@
 		</dependency>
 		<dependency>
 			<groupId>org.t-io</groupId>
-			<artifactId>tio-examples-helloworld-common</artifactId>
+			<artifactId>common</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 
