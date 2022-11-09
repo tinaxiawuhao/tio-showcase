@@ -4,7 +4,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * @author tanyaowu
+ * 
  * 2017年5月29日 下午10:46:53
  */
 public class LogUtils {
@@ -16,7 +16,7 @@ public class LogUtils {
 
 	/**
 	 * @param args
-	 * @author tanyaowu
+	 * 
 	 */
 	public static void main(String[] args) {
 
@@ -26,7 +26,7 @@ public class LogUtils {
 
 	/**
 	 *
-	 * @author tanyaowu
+	 * 
 	 */
 	public LogUtils() {
 	}

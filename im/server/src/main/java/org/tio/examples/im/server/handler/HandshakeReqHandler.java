@@ -95,7 +95,7 @@ public class HandshakeReqHandler implements ImBsHandlerIntf {
 	 * @param requestPacket
 	 * @return
 	 *
-	 * @author tanyaowu
+	 * 
 	 * 2017年2月23日 下午4:11:41
 	 *
 	 */

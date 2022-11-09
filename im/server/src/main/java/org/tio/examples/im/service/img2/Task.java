@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.util.Iterator;
 
 /**
- * @author tanyaowu
+ * 
  * 2017年5月15日 下午5:53:27
  */
 public class Task implements Runnable {

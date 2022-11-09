@@ -14,7 +14,7 @@ import cn.hutool.core.io.FileUtil;
 import cn.hutool.dfa.WordTree;
 
 /**
- * @author tanyaowu
+ * 
  * 2017年5月29日 下午2:50:41
  */
 public class BadWordService {
@@ -24,7 +24,7 @@ public class BadWordService {
 		 * @param initText
 		 * @param badWord
 		 * @return
-		 * @author tanyaowu
+		 * 
 		 */
 		String replace(String initText, String badWord);
 	}
@@ -40,7 +40,7 @@ public class BadWordService {
 		 * @param initText
 		 * @param badWord
 		 * @return
-		 * @author tanyaowu
+		 * 
 		 */
 		@Override
 		public String replace(String initText, String badWord) {
@@ -81,7 +81,7 @@ public class BadWordService {
 
 	/**
 	 * @param args
-	 * @author tanyaowu
+	 * 
 	 */
 	public static void main(String[] args) {
 		init();
@@ -115,7 +115,7 @@ public class BadWordService {
 	 * @param replaceText
 	 * @param logstr
 	 * @return
-	 * @author tanyaowu
+	 * 
 	 */
 	public static String replaceBadWord(String initText, String replaceText, Object logstr) {
 		List<String> list = wordTree.matchAll(initText);
@@ -144,7 +144,7 @@ public class BadWordService {
 
 	/**
 	 *
-	 * @author tanyaowu
+	 * 
 	 */
 	public BadWordService() {
 	}

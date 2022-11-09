@@ -8,7 +8,7 @@ import org.tio.examples.im.common.ImPacket;
 
 /**
  *
- * @author tanyaowu
+ * 
  *
  */
 public class HttpResponsePacket extends ImPacket {
@@ -17,7 +17,7 @@ public class HttpResponsePacket extends ImPacket {
 	/**
 	 * @param args
 	 *
-	 * @author tanyaowu
+	 * 
 	 * 2017年2月22日 下午4:14:40
 	 *
 	 */
@@ -35,7 +35,7 @@ public class HttpResponsePacket extends ImPacket {
 	/**
 	 *
 	 *
-	 * @author tanyaowu
+	 * 
 	 * 2017年2月22日 下午4:14:40
 	 *
 	 */

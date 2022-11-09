@@ -11,7 +11,7 @@ import org.tio.examples.helloworld.common.HelloPacket;
 
 /**
  * 
- * @author tanyaowu
+ * 
  */
 public class HelloClientAioHandler implements ClientAioHandler {
 	private static HelloPacket heartbeatPacket = new HelloPacket();

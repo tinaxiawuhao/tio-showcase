@@ -45,7 +45,7 @@ import okhttp3.Response;
 /**
  *
  *
- * @author tanyaowu
+ * 
  *
  */
 public class ChatReqHandler implements ImBsHandlerIntf {
@@ -123,7 +123,7 @@ public class ChatReqHandler implements ImBsHandlerIntf {
 	 * 处理聊天中的指令
 	 * @param initText
 	 * @return
-	 * @author tanyaowu
+	 * 
 	 * @param channelContext
 	 */
 	public static ChatCommandVo handlerChatCommand(String initText, ChannelContext channelContext) {

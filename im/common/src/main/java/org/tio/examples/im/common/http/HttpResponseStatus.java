@@ -4,7 +4,7 @@ package org.tio.examples.im.common.http;
  * 本类直接摘自baseio: https://gitee.com/generallycloud/baseio<br>
  * 谢谢作者整理<br>
  *
- * @author tanyaowu
+ * 
  *
  */
 public enum HttpResponseStatus {

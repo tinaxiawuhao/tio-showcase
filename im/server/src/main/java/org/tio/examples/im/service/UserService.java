@@ -17,7 +17,7 @@ import cn.hutool.core.util.RandomUtil;
 
 /**
  * 这个类是mock类，用户实际项目中需要用自己的代码替换现有的代码
- * @author tanyaowu
+ * 
  * 2017年5月8日 下午6:12:47
  */
 public class UserService {
@@ -53,7 +53,7 @@ public class UserService {
 	/**
 	 * 获取系统管理员的Client对象
 	 * @return
-	 * @author tanyaowu
+	 * 
 	 */
 	private static Client getSysClient() {
 		Client.Builder clientBuilder = null;
@@ -81,7 +81,7 @@ public class UserService {
 	 * 根据token获取用户信息
 	 * @param token
 	 * @return
-	 * @author tanyaowu
+	 * 
 	 */
 	public static User getUser(String token) {
 		//demo中用map，生产环境需要用cache
@@ -109,7 +109,7 @@ public class UserService {
 	 * @param loginname
 	 * @param password
 	 * @return
-	 * @author tanyaowu
+	 * 
 	 */
 	public static User getUser(String loginname, String password) {
 		String token = null;
@@ -118,7 +118,7 @@ public class UserService {
 
 	/**
 	 * @param args
-	 * @author tanyaowu
+	 * 
 	 */
 	public static void main(String[] args) {
 
@@ -149,7 +149,7 @@ public class UserService {
 
 	/**
 	 *
-	 * @author tanyaowu
+	 * 
 	 */
 	public UserService() {
 		//com.google.common.util.concurrent.RateLimiter

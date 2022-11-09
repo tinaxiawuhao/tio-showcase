@@ -7,7 +7,7 @@ import org.tio.examples.im.common.ImPacket;
 
 /**
  *
- * @author tanyaowu
+ * 
  * 2017年5月14日 上午10:35:57
  */
 public class ExitGroupNotifyRespHandler implements ImAioHandlerIntf {
@@ -26,7 +26,7 @@ public class ExitGroupNotifyRespHandler implements ImAioHandlerIntf {
 	 * @param channelContext
 	 * @return
 	 * @throws Exception
-	 * @author tanyaowu
+	 * 
 	 */
 	@Override
 	public Object handler(ImPacket packet, ChannelContext channelContext) throws Exception {

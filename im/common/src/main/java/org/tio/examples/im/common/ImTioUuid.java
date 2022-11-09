@@ -7,7 +7,7 @@ import org.tio.core.intf.TioUuid;
 import cn.hutool.core.lang.Snowflake;
 
 /**
- * @author tanyaowu
+ * 
  * 2017年6月5日 上午10:44:26
  */
 public class ImTioUuid implements TioUuid {
@@ -15,7 +15,7 @@ public class ImTioUuid implements TioUuid {
 
 	/**
 	 * @param args
-	 * @author tanyaowu
+	 * 
 	 */
 	public static void main(String[] args) {
 
@@ -28,7 +28,7 @@ public class ImTioUuid implements TioUuid {
 
 	/**
 	 *
-	 * @author tanyaowu
+	 * 
 	 */
 	public ImTioUuid(long workerId, long datacenterId) {
 		snowflake = new Snowflake(workerId, datacenterId);
@@ -36,7 +36,7 @@ public class ImTioUuid implements TioUuid {
 
 	/**
 	 * @return
-	 * @author tanyaowu
+	 * 
 	 */
 	@Override
 	public String uuid() {

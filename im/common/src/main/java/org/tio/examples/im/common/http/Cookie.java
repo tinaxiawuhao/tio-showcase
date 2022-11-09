@@ -14,7 +14,7 @@ import org.slf4j.LoggerFactory;
 
 /**
  * 部分代码参考了: https://github.com/helyho/Voovan
- * @author tanyaowu
+ * 
  * 2017年5月29日 上午7:45:58
  */
 public class Cookie {
@@ -118,7 +118,7 @@ public class Cookie {
 
 	/**
 	 *
-	 * @author tanyaowu
+	 * 
 	 */
 	public Cookie() {
 	}

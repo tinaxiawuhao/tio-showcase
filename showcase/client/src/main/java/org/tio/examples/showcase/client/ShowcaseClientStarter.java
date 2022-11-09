@@ -18,22 +18,19 @@ import org.tio.examples.showcase.common.packets.P2PReqBody;
 import org.tio.utils.hutool.StrUtil;
 import org.tio.utils.json.Json;
 
-/**
- *
- * @author tanyaowu
- */
+
 public class ShowcaseClientStarter {
 	static String serverIp = "127.0.0.1";
 	static int serverPort = Const.PORT;
 
-	private static Node serverNode = new Node(serverIp, serverPort);
+	private static final Node serverNode = new Node(serverIp, serverPort);
 
 	//用来自动连接的，不想自动连接请设为null
-	private static ReconnConf reconnConf = new ReconnConf(5000L);
+	private static final ReconnConf reconnConf = new ReconnConf(5000L);
 
-	private static ClientAioHandler tioClientHandler = new ShowcaseClientAioHandler();
-	private static ClientAioListener aioListener = new ShowcaseClientAioListener();
-	private static ClientGroupContext clientGroupContext = new ClientGroupContext(tioClientHandler, aioListener, reconnConf);
+	private static final ClientAioHandler tioClientHandler = new ShowcaseClientAioHandler();
+	private static final ClientAioListener aioListener = new ShowcaseClientAioListener();
+	private static final ClientGroupContext clientGroupContext = new ClientGroupContext(tioClientHandler, aioListener, reconnConf);
 
 	private static TioClient tioClient = null;
 
@@ -45,13 +42,12 @@ public class ShowcaseClientStarter {
 		int i = 1;
 		StringBuilder sb = new StringBuilder();
 		sb.append("使用指南:\r\n");
-		sb.append(i++ + "、需要帮助，输入 '?'.\r\n");
-		sb.append(i++ + "、登录，输入 'login loginname password'.\r\n");
-		sb.append(i++ + "、进入群组，输入 'join group1'.\r\n");
-		sb.append(i++ + "、群聊，输入 'groupMsg group1 text'.\r\n");
-		sb.append(i++ + "、点对点聊天，输入 'p2pMsg loginname text'.\r\n");
-
-		sb.append(i++ + "、退出程序，输入 'exit'.\r\n");
+		sb.append(i++).append("、需要帮助，输入 '?'.\r\n");
+		sb.append(i++).append("、登录，输入 'login loginname password'.\r\n");
+		sb.append(i++).append("、进入群组，输入 'join group1'.\r\n");
+		sb.append(i++).append("、群聊，输入 'groupMsg group1 text'.\r\n");
+		sb.append(i++).append("、点对点聊天，输入 'p2pMsg loginname text'.\r\n");
+		sb.append(i).append("、退出程序，输入 'exit'.\r\n");
 
 		System.out.println(sb);
 

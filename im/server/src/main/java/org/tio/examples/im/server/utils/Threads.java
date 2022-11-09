@@ -12,7 +12,7 @@ import org.tio.utils.thread.pool.SynThreadPoolExecutor;
 
 /**
  *
- * @author tanyaowu
+ * 
  * 2017年7月7日 上午11:12:03
  */
 public class Threads {

@@ -10,7 +10,7 @@ import org.tio.client.ClientChannelContext;
 
 /**
  *
- * @author tanyaowu
+ * 
  *
  */
 public class ImListCellRenderer extends DefaultListCellRenderer {

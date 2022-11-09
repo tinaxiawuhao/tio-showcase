@@ -19,7 +19,7 @@ import org.tio.examples.im.common.packets.Geolocation;
 /**
  *
  *
- * @author tanyaowu
+ * 
  *
  */
 public class AuthReqHandler implements ImBsHandlerIntf {

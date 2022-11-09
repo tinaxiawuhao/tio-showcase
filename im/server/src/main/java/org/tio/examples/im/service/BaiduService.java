@@ -1,7 +1,7 @@
 package org.tio.examples.im.service;
 
 /**
- * @author tanyaowu
+ * 
  * 2017年6月2日 上午10:54:57
  */
 public class BaiduService {
@@ -11,7 +11,7 @@ public class BaiduService {
 //
 //	/**
 //	 * @param args
-//	 * @author tanyaowu
+//	 * 
 //	 */
 //	public static void main(String[] args) {
 //		Searcher searcher = new JSoupBaiduSearcher();
@@ -37,7 +37,7 @@ public class BaiduService {
 //	 * 返回null表示没有搜索到结果
 //	 * @param initText
 //	 * @return
-//	 * @author tanyaowu
+//	 * 
 //	 */
 //	public static String replaceToSearchHtml(String initText) {
 //
@@ -91,7 +91,7 @@ public class BaiduService {
 //
 //	/**
 //	 *
-//	 * @author tanyaowu
+//	 * 
 //	 */
 //	public BaiduService() {
 //	}

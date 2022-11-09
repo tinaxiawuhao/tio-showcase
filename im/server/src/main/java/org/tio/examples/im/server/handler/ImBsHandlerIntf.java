@@ -5,7 +5,7 @@ import org.tio.examples.im.common.ImPacket;
 
 /**
  *
- * @author tanyaowu
+ * 
  *
  */
 public interface ImBsHandlerIntf {
@@ -15,7 +15,7 @@ public interface ImBsHandlerIntf {
 	 * @param channelContext
 	 * @return
 	 *
-	 * @author tanyaowu
+	 * 
 	 * 2016年11月18日 下午1:08:45
 	 *
 	 */

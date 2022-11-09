@@ -9,14 +9,14 @@ import org.tio.monitor.RateLimiterWrap;
 
 /**
  *
- * @author tanyaowu
+ * 
  *
  */
 public class ImSessionContext {
 	/**
 	 * @param args
 	 *
-	 * @author tanyaowu
+	 * 
 	 * 2017年2月21日 上午10:27:54
 	 *
 	 */
@@ -59,7 +59,7 @@ public class ImSessionContext {
 	/**
 	 *
 	 *
-	 * @author tanyaowu
+	 * 
 	 * 2017年2月21日 上午10:27:54
 	 *
 	 */

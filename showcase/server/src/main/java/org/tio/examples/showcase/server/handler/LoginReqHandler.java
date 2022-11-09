@@ -1,11 +1,9 @@
 package org.tio.examples.showcase.server.handler;
 
-import java.util.concurrent.atomic.AtomicLong;
-
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-import org.tio.core.Tio;
+import lombok.NoArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.tio.core.ChannelContext;
+import org.tio.core.Tio;
 import org.tio.examples.showcase.common.ShowcasePacket;
 import org.tio.examples.showcase.common.ShowcaseSessionContext;
 import org.tio.examples.showcase.common.Type;
@@ -15,33 +13,17 @@ import org.tio.examples.showcase.common.packets.LoginReqBody;
 import org.tio.examples.showcase.common.packets.LoginRespBody;
 import org.tio.utils.json.Json;
 
-/**
- * @author tanyaowu
- * 2017年3月27日 下午9:51:28
- */
+import java.util.concurrent.atomic.AtomicLong;
+
+@Slf4j
+@NoArgsConstructor
 public class LoginReqHandler extends AbsShowcaseBsHandler<LoginReqBody> {
-	private static Logger log = LoggerFactory.getLogger(LoginReqHandler.class);
 
-	/**
-	 * @param args
-	 * @author tanyaowu
-	 */
-	public static void main(String[] args) {
-
-	}
-
-	java.util.concurrent.atomic.AtomicLong tokenSeq = new AtomicLong();
-
-	/**
-	 *
-	 * @author tanyaowu
-	 */
-	public LoginReqHandler() {
-	}
+	AtomicLong tokenSeq = new AtomicLong();
 
 	/**
 	 * @return
-	 * @author tanyaowu
+	 * 
 	 */
 	@Override
 	public Class<LoginReqBody> bodyClass() {
@@ -54,10 +36,10 @@ public class LoginReqHandler extends AbsShowcaseBsHandler<LoginReqBody> {
 	 * @param channelContext
 	 * @return
 	 * @throws Exception
-	 * @author tanyaowu
+	 * 
 	 */
 	@Override
-	public Object handler(ShowcasePacket packet, LoginReqBody bsBody, ChannelContext channelContext) throws Exception {
+	public void handler(ShowcasePacket packet, LoginReqBody bsBody, ChannelContext channelContext) throws Exception {
 		log.info("收到登录请求消息:{}", Json.toJson(bsBody));
 		LoginRespBody loginRespBody = new LoginRespBody();
 		loginRespBody.setCode(JoinGroupRespBody.Code.SUCCESS);
@@ -73,8 +55,6 @@ public class LoginReqHandler extends AbsShowcaseBsHandler<LoginReqBody> {
 		respPacket.setType(Type.LOGIN_RESP);
 		respPacket.setBody(Json.toJson(loginRespBody).getBytes(ShowcasePacket.CHARSET));
 		Tio.send(channelContext, respPacket);
-
-		return null;
 	}
 
 	private String newToken() {

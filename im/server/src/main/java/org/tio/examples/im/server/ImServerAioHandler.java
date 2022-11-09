@@ -45,7 +45,7 @@ import cn.hutool.core.util.ZipUtil;
 
 /**
  *
- * @author tanyaowu
+ * 
  *
  */
 public class ImServerAioHandler implements ServerAioHandler {
@@ -78,7 +78,7 @@ public class ImServerAioHandler implements ServerAioHandler {
 	/**
 	 * @param args
 	 *
-	 * @author tanyaowu
+	 * 
 	 * 2016年11月18日 上午9:13:15
 	 *
 	 */
@@ -88,7 +88,7 @@ public class ImServerAioHandler implements ServerAioHandler {
 	/**
 	 *
 	 *
-	 * @author tanyaowu
+	 * 
 	 * 2016年11月18日 上午9:13:15
 	 *
 	 */
@@ -101,7 +101,7 @@ public class ImServerAioHandler implements ServerAioHandler {
 	 * @param buffer
 	 * @return
 	 * @throws AioDecodeException
-	 * @author tanyaowu
+	 * 
 	 * 2016年11月18日 上午9:37:44
 	 *
 	 */
@@ -257,7 +257,7 @@ public class ImServerAioHandler implements ServerAioHandler {
 	 *
 	 * @param packet
 	 * @return
-	 * @author tanyaowu
+	 * 
 	 * 2016年11月18日 上午9:37:44
 	 *
 	 */
@@ -351,7 +351,7 @@ public class ImServerAioHandler implements ServerAioHandler {
 	 * @param packet
 	 * @return
 	 * @throws Exception
-	 * @author tanyaowu
+	 * 
 	 * 2016年11月18日 上午9:37:44
 	 *
 	 */

@@ -17,7 +17,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * @author tanyaowu
+ * 
  * 2017年5月15日 下午5:54:51
  */
 public class DetailPage {
@@ -37,7 +37,7 @@ public class DetailPage {
 
 	/**
 	 *
-	 * @author tanyaowu
+	 * 
 	 */
 	public DetailPage() {
 	}

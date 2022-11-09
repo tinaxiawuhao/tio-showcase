@@ -15,14 +15,10 @@ import org.tio.examples.showcase.common.ShowcasePacket;
 import org.tio.examples.showcase.common.Type;
 import org.tio.examples.showcase.common.intf.AbsShowcaseBsHandler;
 
-/**
- *
- * @author tanyaowu
- * 2017年3月27日 上午12:18:11
- */
+
 public class ShowcaseClientAioHandler extends ShowcaseAbsAioHandler implements ClientAioHandler {
 
-	private static Map<Byte, AbsShowcaseBsHandler<?>> handlerMap = new HashMap<>();
+	private static final Map<Byte, AbsShowcaseBsHandler<?>> handlerMap = new HashMap<>();
 	static {
 		handlerMap.put(Type.GROUP_MSG_RESP, new GroupMsgRespHandler());
 		handlerMap.put(Type.JOIN_GROUP_RESP, new JoinGroupRespHandler());
@@ -30,7 +26,7 @@ public class ShowcaseClientAioHandler extends ShowcaseAbsAioHandler implements C
 		handlerMap.put(Type.P2P_RESP, new P2PRespHandler());
 	}
 
-	private static ShowcasePacket heartbeatPacket = new ShowcasePacket(Type.HEART_BEAT_REQ, null);
+	private static final ShowcasePacket heartbeatPacket = new ShowcasePacket(Type.HEART_BEAT_REQ, null);
 
 	/**
 	 * 处理消息
@@ -41,7 +37,6 @@ public class ShowcaseClientAioHandler extends ShowcaseAbsAioHandler implements C
 		Byte type = showcasePacket.getType();
 		AbsShowcaseBsHandler<?> showcaseBsHandler = handlerMap.get(type);
 		showcaseBsHandler.handler(showcasePacket, channelContext);
-		return;
 	}
 
 	/**

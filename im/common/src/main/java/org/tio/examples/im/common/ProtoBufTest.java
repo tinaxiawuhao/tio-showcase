@@ -5,7 +5,7 @@ import org.slf4j.LoggerFactory;
 import org.tio.examples.im.common.packets.Client;
 
 /**
- * @author tanyaowu
+ * 
  * 2017年5月9日 上午11:21:54
  */
 public class ProtoBufTest {
@@ -13,7 +13,7 @@ public class ProtoBufTest {
 
 	/**
 	 * @param args
-	 * @author tanyaowu
+	 * 
 	 */
 	public static void main(String[] args) {
 		Client.Builder clientBuilder = null;
@@ -44,7 +44,7 @@ public class ProtoBufTest {
 
 	/**
 	 *
-	 * @author tanyaowu
+	 * 
 	 */
 	public ProtoBufTest() {
 	}

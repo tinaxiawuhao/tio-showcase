@@ -21,7 +21,7 @@ import cn.hutool.core.io.FileUtil;
 
 /**
  * 美女图
- * @author tanyaowu
+ * 
  * 2017年5月14日 上午9:48:03
  */
 public class ImgMnService {
@@ -80,7 +80,7 @@ public class ImgMnService {
 
 	/**
 	 * @param args
-	 * @author tanyaowu
+	 * 
 	 */
 	public static void main(String[] args) {
 		start();
@@ -278,7 +278,7 @@ public class ImgMnService {
 
 	/**
 	 *
-	 * @author tanyaowu
+	 * 
 	 */
 	public ImgMnService() {
 

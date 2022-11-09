@@ -109,7 +109,7 @@ public class BufferUtil {
 	 * @param buffer
 	 * @return
 	 *
-	 * @author tanyaowu
+	 * 
 	 * 2017年1月23日 下午3:07:31
 	 *
 	 */
@@ -128,7 +128,7 @@ public class BufferUtil {
 	 * @param charset
 	 * @return
 	 *
-	 * @author tanyaowu
+	 * 
 	 * 2017年1月25日 下午12:12:07
 	 *
 	 */

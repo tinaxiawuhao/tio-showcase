@@ -13,7 +13,7 @@ import cn.hutool.core.io.FileUtil;
 import cn.hutool.core.util.RandomUtil;
 
 /**
- * @author tanyaowu
+ * 
  * 2017年5月29日 下午2:50:41
  */
 public class FamilynameService {
@@ -60,7 +60,7 @@ public class FamilynameService {
 
 	/**
 	 * @param args
-	 * @author tanyaowu
+	 * 
 	 */
 	public static void main(String[] args) {
 		init();
@@ -73,7 +73,7 @@ public class FamilynameService {
 
 	/**
 	 *
-	 * @author tanyaowu
+	 * 
 	 */
 	public FamilynameService() {
 	}

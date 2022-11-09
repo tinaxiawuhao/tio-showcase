@@ -21,7 +21,7 @@ import cn.hutool.core.io.FileUtil;
 
 /**
  * 风景图
- * @author tanyaowu
+ * 
  * 2017年5月14日 上午9:48:03
  */
 public class ImgFjService {
@@ -46,7 +46,7 @@ public class ImgFjService {
 
 	/**
 	 * @param args
-	 * @author tanyaowu
+	 * 
 	 */
 	public static void main(String[] args) {
 		start();
@@ -234,7 +234,7 @@ public class ImgFjService {
 
 	/**
 	 *
-	 * @author tanyaowu
+	 * 
 	 */
 	public ImgFjService() {
 

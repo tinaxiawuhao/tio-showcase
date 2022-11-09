@@ -16,7 +16,7 @@ import cn.hutool.core.io.FileUtil;
 import cn.hutool.core.util.RandomUtil;
 
 /**
- * @author tanyaowu
+ * 
  * 2017年6月8日 上午9:52:26
  */
 public class IdiomService {
@@ -38,7 +38,7 @@ public class IdiomService {
 	 *
 	 * @param idiom
 	 * @return
-	 * @author tanyaowu
+	 * 
 	 */
 	public static IdiomVo get(String idiom) {
 		if (StringUtils.isBlank(idiom)) {
@@ -57,7 +57,7 @@ public class IdiomService {
 	 *
 	 * @param first
 	 * @return
-	 * @author tanyaowu
+	 * 
 	 */
 	public static Map<String, IdiomVo> getByFirst(String first) {
 		if (StringUtils.isBlank(first)) {
@@ -105,7 +105,7 @@ public class IdiomService {
 
 	/**
 	 * @param args
-	 * @author tanyaowu
+	 * 
 	 */
 	public static void main(String[] args) {
 		//new IdiomService();
@@ -115,7 +115,7 @@ public class IdiomService {
 	 * 成语接龙
 	 * @param firstIdiom 成语，譬如：张冠李戴
 	 * @return
-	 * @author tanyaowu
+	 * 
 	 */
 	public static IdiomVo next(String firstIdiom) {
 		if (StringUtils.isBlank(firstIdiom)) {
@@ -180,7 +180,7 @@ public class IdiomService {
 	/**
 	 * 从库中随机取一个成语
 	 * @return
-	 * @author tanyaowu
+	 * 
 	 */
 	public static IdiomVo random() {
 		int index = RandomUtil.randomInt(0, Math.min(1000, firstMap.size() - 1));
@@ -200,7 +200,7 @@ public class IdiomService {
 	 * 根据首字，从库中随机取一个成语
 	 * @param firstWord
 	 * @return
-	 * @author tanyaowu
+	 * 
 	 */
 	public static IdiomVo random(String firstWord) {
 		if (StringUtils.isBlank(firstWord)) {
@@ -231,7 +231,7 @@ public class IdiomService {
 
 	/**
 	 *
-	 * @author tanyaowu
+	 * 
 	 */
 	private IdiomService() {
 		init();

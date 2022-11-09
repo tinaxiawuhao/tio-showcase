@@ -17,7 +17,7 @@ import org.tio.examples.im.common.http.HttpConst.RequestBodyFormat;
 
 /**
  *
- * @author tanyaowu
+ * 
  *
  */
 public class HttpRequestPacket extends ImPacket {
@@ -107,7 +107,7 @@ public class HttpRequestPacket extends ImPacket {
 	/**
 	 * @param args
 	 *
-	 * @author tanyaowu
+	 * 
 	 * 2017年2月22日 下午4:14:40
 	 *
 	 */
@@ -134,7 +134,7 @@ public class HttpRequestPacket extends ImPacket {
 	/**
 	 *
 	 *
-	 * @author tanyaowu
+	 * 
 	 * 2017年2月22日 下午4:14:40
 	 *
 	 */

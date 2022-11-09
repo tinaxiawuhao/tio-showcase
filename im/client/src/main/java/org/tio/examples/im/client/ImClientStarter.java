@@ -16,7 +16,7 @@ import com.typesafe.config.ConfigFactory;
 
 /**
  *
- * @author tanyaowu
+ * 
  *
  */
 public class ImClientStarter {
@@ -28,7 +28,7 @@ public class ImClientStarter {
 	/**
 	 * @param args
 	 *
-	 * @author tanyaowu
+	 * 
 	 * @throws IOException
 	 * 2016年11月17日 下午5:59:24
 	 *
@@ -45,7 +45,7 @@ public class ImClientStarter {
 	/**
 	 *
 	 *
-	 * @author tanyaowu
+	 * 
 	 * @throws IOException
 	 * 2016年11月17日 下午5:59:24
 	 *

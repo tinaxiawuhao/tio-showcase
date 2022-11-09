@@ -13,7 +13,7 @@ import org.tio.examples.im.common.packets.DeviceType;
 
 /**
  *
- * @author tanyaowu
+ * 
  * 2017年5月9日 上午11:46:24
  */
 public class HandshakeRespHandler implements ImAioHandlerIntf {

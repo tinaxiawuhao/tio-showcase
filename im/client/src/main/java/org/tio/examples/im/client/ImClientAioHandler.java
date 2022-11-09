@@ -28,7 +28,7 @@ import cn.hutool.core.util.ZipUtil;
 
 /**
  *
- * @author tanyaowu
+ * 
  *
  */
 public class ImClientAioHandler implements ClientAioHandler {
@@ -53,7 +53,7 @@ public class ImClientAioHandler implements ClientAioHandler {
 	/**
 	 * @param args
 	 *
-	 * @author tanyaowu
+	 * 
 	 * 2016年11月18日 上午9:13:15
 	 *
 	 */
@@ -63,7 +63,7 @@ public class ImClientAioHandler implements ClientAioHandler {
 	/**
 	 *
 	 *
-	 * @author tanyaowu
+	 * 
 	 * 2016年11月18日 上午9:13:15
 	 *
 	 */
@@ -167,7 +167,7 @@ public class ImClientAioHandler implements ClientAioHandler {
 	 *
 	 * @param packet
 	 * @return
-	 * @author tanyaowu
+	 * 
 	 * 2016年11月18日 上午9:37:44
 	 *
 	 */
@@ -255,7 +255,7 @@ public class ImClientAioHandler implements ClientAioHandler {
 	 * @param packet
 	 * @return
 	 * @throws Exception
-	 * @author tanyaowu
+	 * 
 	 * 2016年11月18日 上午9:37:44
 	 *
 	 */
@@ -280,7 +280,7 @@ public class ImClientAioHandler implements ClientAioHandler {
 	 * @see org.tio.client.intf.ClientAioHandler#heartbeatPacket()
 	 *
 	 * @return
-	 * @author tanyaowu
+	 * 
 	 * 2016年12月6日 下午2:18:16
 	 *
 	 */

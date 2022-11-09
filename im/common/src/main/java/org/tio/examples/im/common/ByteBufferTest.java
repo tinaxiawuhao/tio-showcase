@@ -6,7 +6,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * @author tanyaowu
+ * 
  * 2017年5月9日 上午11:21:54
  */
 public class ByteBufferTest {
@@ -14,7 +14,7 @@ public class ByteBufferTest {
 
 	/**
 	 * @param args
-	 * @author tanyaowu
+	 * 
 	 */
 	public static void main(String[] args) {
 		ByteBuffer byteBuffer = ByteBuffer.allocate(6);
@@ -29,7 +29,7 @@ public class ByteBufferTest {
 
 	/**
 	 *
-	 * @author tanyaowu
+	 * 
 	 */
 	public ByteBufferTest() {
 	}

@@ -9,7 +9,7 @@ import org.tio.examples.im.common.packets.Command;
 /**
  * 参考了baseio: https://gitee.com/generallycloud/baseio
  * com.generallycloud.nio.codec.http11.future.WebSocketReadFutureImpl
- * @author tanyaowu
+ * 
  *
  */
 public class WebsocketPacket extends ImPacket {
@@ -57,7 +57,7 @@ public class WebsocketPacket extends ImPacket {
 
 	/**
 	 *
-	 * @author tanyaowu
+	 * 
 	 */
 	public WebsocketPacket() {
 		super();
@@ -65,7 +65,7 @@ public class WebsocketPacket extends ImPacket {
 
 	/**
 	 * @param commandHandshakeResp
-	 * @author tanyaowu
+	 * 
 	 */
 	public WebsocketPacket(Command command) {
 		super(command);
@@ -74,7 +74,7 @@ public class WebsocketPacket extends ImPacket {
 	/**
 	 *
 	 *
-	 * @author tanyaowu
+	 * 
 	 * 2017年2月22日 下午4:14:40
 	 * @param bs
 	 * @param commandChatResp

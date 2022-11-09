@@ -1,47 +1,17 @@
 package org.tio.examples.showcase.common.packets;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+import lombok.NoArgsConstructor;
 
 /**
  * 进群请求
- * @author tanyaowu
- * 2017年3月25日 上午8:22:06
+ *
  */
+@Data
+@EqualsAndHashCode(callSuper = true)
+@NoArgsConstructor
 public class JoinGroupReqBody extends BaseBody {
-	@SuppressWarnings("unused")
-	private static Logger log = LoggerFactory.getLogger(JoinGroupReqBody.class);
-
-	/**
-	 * @param args
-	 *
-	 * @author tanyaowu
-	 */
-	public static void main(String[] args) {
-
-	}
 
 	private String group;
-
-	/**
-	 *
-	 * @author tanyaowu
-	 */
-	public JoinGroupReqBody() {
-
-	}
-
-	/**
-	 * @return the group
-	 */
-	public String getGroup() {
-		return group;
-	}
-
-	/**
-	 * @param group the group to set
-	 */
-	public void setGroup(String group) {
-		this.group = group;
-	}
 }

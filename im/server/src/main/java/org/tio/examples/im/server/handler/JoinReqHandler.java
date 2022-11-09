@@ -24,7 +24,7 @@ import org.tio.utils.SystemTimer;
 /**
  *
  *
- * @author tanyaowu
+ * 
  *
  */
 public class JoinReqHandler implements ImBsHandlerIntf {

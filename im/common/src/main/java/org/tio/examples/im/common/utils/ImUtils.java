@@ -12,7 +12,7 @@ import org.tio.examples.im.common.http.HttpRequestPacket;
 import org.tio.examples.im.common.packets.Client;
 
 /**
- * @author tanyaowu
+ * 
  * 2017年5月5日 下午5:35:02
  */
 public class ImUtils {
@@ -62,7 +62,7 @@ public class ImUtils {
 
 	/**
 	 * @param args
-	 * @author tanyaowu
+	 * 
 	 */
 	public static void main(String[] args) {
 	}
@@ -89,7 +89,7 @@ public class ImUtils {
 	 * 设置Client对象到ImSessionContext中
 	 * @param channelContext
 	 * @return
-	 * @author tanyaowu
+	 * 
 	 */
 	public static Client setClient(ChannelContext channelContext) {
 		ImSessionContext imSessionContext = (ImSessionContext) channelContext.getAttribute();

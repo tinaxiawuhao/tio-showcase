@@ -15,7 +15,7 @@ import org.tio.examples.im.common.packets.JoinGroupResult;
 
 /**
  *
- * @author tanyaowu
+ * 
  * 2017年5月9日 上午11:46:16
  */
 public class JoinRespHandler implements ImAioHandlerIntf {
@@ -72,7 +72,7 @@ public class JoinRespHandler implements ImAioHandlerIntf {
 	 * @param channelContext
 	 * @return
 	 * @throws Exception
-	 * @author tanyaowu
+	 * 
 	 * 2016年12月6日 下午2:25:44
 	 *
 	 */

@@ -4,7 +4,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * @author tanyaowu
+ * 
  * 2017年6月8日 上午9:57:45
  */
 public class IdiomVo {
@@ -12,7 +12,7 @@ public class IdiomVo {
 
 	/**
 	 * @param args
-	 * @author tanyaowu
+	 * 
 	 */
 	public static void main(String[] args) {
 
@@ -26,7 +26,7 @@ public class IdiomVo {
 
 	/**
 	 *
-	 * @author tanyaowu
+	 * 
 	 */
 	public IdiomVo() {
 	}
@@ -36,7 +36,7 @@ public class IdiomVo {
 	 * @param first
 	 * @param pinyin
 	 * @param paraphrase
-	 * @author tanyaowu
+	 * 
 	 */
 	public IdiomVo(String idiom, String first, String pinyin, String paraphrase) {
 		super();

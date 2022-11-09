@@ -5,7 +5,7 @@ import org.slf4j.LoggerFactory;
 import org.tio.examples.im.common.packets.Client;
 
 /**
- * @author tanyaowu
+ * 
  * 2017年6月23日 上午11:46:21
  */
 public class ChatCommandVo {
@@ -13,7 +13,7 @@ public class ChatCommandVo {
 
 	/**
 	 * @param args
-	 * @author tanyaowu
+	 * 
 	 */
 	public static void main(String[] args) {
 
@@ -28,7 +28,7 @@ public class ChatCommandVo {
 
 	/**
 	 *
-	 * @author tanyaowu
+	 * 
 	 */
 	public ChatCommandVo() {
 	}

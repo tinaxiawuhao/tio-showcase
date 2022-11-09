@@ -2,7 +2,7 @@ package org.tio.examples.im.common.http;
 
 /**
  *
- * @author tanyaowu
+ * 
  *
  */
 public class KeyValue {

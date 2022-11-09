@@ -10,7 +10,7 @@ import org.tio.examples.im.common.ImPacket;
 
 /**
  *
- * @author tanyaowu
+ * 
  * 2017年5月9日 上午11:46:36
  */
 public class ChatRespHandler implements ImAioHandlerIntf {

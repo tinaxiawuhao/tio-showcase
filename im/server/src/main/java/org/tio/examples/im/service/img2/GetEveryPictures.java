@@ -6,7 +6,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * @author tanyaowu
+ * 
  * 2017年5月15日 下午5:52:51
  */
 public class GetEveryPictures {

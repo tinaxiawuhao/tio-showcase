@@ -13,7 +13,7 @@ import org.tio.examples.helloworld.common.HelloPacket;
 
 /**
  *
- * @author tanyaowu
+ * 
  *
  */
 public class HelloClientStarter {

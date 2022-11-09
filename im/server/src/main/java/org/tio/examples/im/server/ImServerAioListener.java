@@ -23,7 +23,7 @@ import cn.hutool.core.io.FileUtil;
 
 /**
  *
- * @author tanyaowu
+ * 
  *
  */
 public class ImServerAioListener implements ServerAioListener {
@@ -37,7 +37,7 @@ public class ImServerAioListener implements ServerAioListener {
 	/**
 	 * @param args
 	 *
-	 * @author tanyaowu
+	 * 
 	 * 2016年12月16日 下午5:52:06
 	 *
 	 */
@@ -47,7 +47,7 @@ public class ImServerAioListener implements ServerAioListener {
 	/**
 	 *
 	 *
-	 * @author tanyaowu
+	 * 
 	 * 2016年12月16日 下午5:52:06
 	 *
 	 */
@@ -60,7 +60,7 @@ public class ImServerAioListener implements ServerAioListener {
 	 * @param channelContext
 	 * @param throwable
 	 * @param remark
-	 * @author tanyaowu
+	 * 
 	 * 2017年2月1日 上午11:03:11
 	 *
 	 */
@@ -74,7 +74,7 @@ public class ImServerAioListener implements ServerAioListener {
 	 * @param asynchronousSocketChannel
 	 * @param tioServer
 	 * @return
-	 * @author tanyaowu
+	 * 
 	 * 2016年12月20日 上午11:03:45
 	 *
 	 */
@@ -156,7 +156,7 @@ public class ImServerAioListener implements ServerAioListener {
 	 *
 	 * @param channelContext
 	 * @param packet
-	 * @author tanyaowu
+	 * 
 	 * 2016年12月20日 上午11:08:44
 	 *
 	 */

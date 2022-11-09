@@ -2,13 +2,13 @@ package org.tio.examples.im.common.http;
 
 /**
  *
- * @author tanyaowu
+ * 
  *
  */
 public interface HttpConst {
 	/**
 	 * 请求体的格式
-	 * @author tanyaowu
+	 * 
 	 * 2017年6月28日 上午10:03:12
 	 */
 	public enum RequestBodyFormat {
@@ -32,7 +32,7 @@ public interface HttpConst {
 	             Cache-Control : no-cache
 	                    Pragma : no-cache
 	 *
-	 * @author tanyaowu
+	 * 
 	 * 2017年5月27日 下午2:11:57
 	 */
 	public interface RequestHeaderKey {
@@ -55,7 +55,7 @@ public interface HttpConst {
 
 	/**
 	 *
-	 * @author tanyaowu
+	 * 
 	 * 2017年6月27日 下午8:23:58
 	 */
 	public interface RequestHeaderValue {
@@ -127,7 +127,7 @@ public interface HttpConst {
 
 	/**
 	 *
-	 * @author tanyaowu
+	 * 
 	 * 2017年6月27日 下午8:24:02
 	 */
 	public interface ResponseHeaderValue {

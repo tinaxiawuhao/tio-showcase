@@ -1,35 +1,16 @@
 package org.tio.examples.showcase.server;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import lombok.NoArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.tio.core.ChannelContext;
 import org.tio.core.intf.Packet;
 import org.tio.examples.showcase.common.ShowcaseSessionContext;
-import org.tio.utils.json.Json;
 import org.tio.server.intf.ServerAioListener;
+import org.tio.utils.json.Json;
 
-/**
- * @author tanyaowu
- * 2017年3月26日 下午8:22:31
- */
+@Slf4j
+@NoArgsConstructor
 public class ShowcaseServerAioListener implements ServerAioListener {
-	private static Logger log = LoggerFactory.getLogger(ShowcaseServerAioListener.class);
-
-	/**
-	 * @param args
-	 * @author tanyaowu
-	 */
-	public static void main(String[] args) {
-
-	}
-
-	/**
-	 *
-	 * @author tanyaowu
-	 */
-	public ShowcaseServerAioListener() {
-	}
-
 
 
 	/**
@@ -37,7 +18,7 @@ public class ShowcaseServerAioListener implements ServerAioListener {
 	 * @param isConnected
 	 * @param isReconnect
 	 * @throws Exception
-	 * @author tanyaowu
+	 * 
 	 */
 	@Override
 	public void onAfterConnected(ChannelContext channelContext, boolean isConnected, boolean isReconnect) throws Exception {
@@ -54,7 +35,7 @@ public class ShowcaseServerAioListener implements ServerAioListener {
 	 * @param packet
 	 * @param isSentSuccess
 	 * @throws Exception
-	 * @author tanyaowu
+	 * 
 	 */
 	@Override
 	public void onAfterSent(ChannelContext channelContext, Packet packet, boolean isSentSuccess) throws Exception {
@@ -70,7 +51,7 @@ public class ShowcaseServerAioListener implements ServerAioListener {
 	 * @param packet
 	 * @param packetSize
 	 * @throws Exception
-	 * @author tanyaowu
+	 * 
 	 */
 	@Override
 	public void onAfterDecoded(ChannelContext channelContext, Packet packet, int packetSize) throws Exception {
@@ -80,7 +61,7 @@ public class ShowcaseServerAioListener implements ServerAioListener {
 	 * @param channelContext
 	 * @param receivedBytes
 	 * @throws Exception
-	 * @author tanyaowu
+	 * 
 	 */
 	@Override
 	public void onAfterReceivedBytes(ChannelContext channelContext, int receivedBytes) throws Exception {
@@ -91,7 +72,7 @@ public class ShowcaseServerAioListener implements ServerAioListener {
 	 * @param packet
 	 * @param cost
 	 * @throws Exception
-	 * @author tanyaowu
+	 * 
 	 */
 	@Override
 	public void onAfterHandled(ChannelContext channelContext, Packet packet, long cost) throws Exception {

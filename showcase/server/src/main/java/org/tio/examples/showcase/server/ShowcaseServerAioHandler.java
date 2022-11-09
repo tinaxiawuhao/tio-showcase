@@ -3,6 +3,7 @@ package org.tio.examples.showcase.server;
 import java.util.HashMap;
 import java.util.Map;
 
+import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.tio.core.ChannelContext;
@@ -18,15 +19,10 @@ import org.tio.examples.showcase.server.handler.LoginReqHandler;
 import org.tio.examples.showcase.server.handler.P2PReqHandler;
 import org.tio.server.intf.ServerAioHandler;
 
-/**
- *
- * @author tanyaowu
- *
- */
+@Slf4j
 public class ShowcaseServerAioHandler extends ShowcaseAbsAioHandler implements ServerAioHandler {
-	private static Logger log = LoggerFactory.getLogger(ShowcaseServerAioHandler.class);
 
-	private static Map<Byte, AbsShowcaseBsHandler<?>> handlerMap = new HashMap<>();
+	private static final Map<Byte, AbsShowcaseBsHandler<?>> handlerMap = new HashMap<>();
 	static {
 		handlerMap.put(Type.GROUP_MSG_REQ, new GroupMsgReqHandler());
 		handlerMap.put(Type.HEART_BEAT_REQ, new HeartbeatReqHandler());
@@ -48,6 +44,5 @@ public class ShowcaseServerAioHandler extends ShowcaseAbsAioHandler implements S
 			return;
 		}
 		showcaseBsHandler.handler(showcasePacket, channelContext);
-		return;
 	}
 }

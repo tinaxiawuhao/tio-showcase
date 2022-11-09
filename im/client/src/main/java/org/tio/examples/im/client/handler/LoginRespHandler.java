@@ -15,7 +15,7 @@ import org.tio.examples.im.common.packets.User;
 
 /**
  *
- * @author tanyaowu
+ * 
  * 2017年5月9日 上午11:45:56
  */
 public class LoginRespHandler implements ImAioHandlerIntf {
@@ -35,7 +35,7 @@ public class LoginRespHandler implements ImAioHandlerIntf {
 	 * @param channelContext
 	 * @return
 	 * @throws Exception
-	 * @author tanyaowu
+	 * 
 	 */
 	@Override
 	public Object handler(ImPacket packet, ChannelContext channelContext) throws Exception {

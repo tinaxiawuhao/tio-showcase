@@ -21,7 +21,7 @@ import cn.hutool.http.HttpUtil;
 
 /**
  *
- * @author tanyaowu
+ * 
  *
  */
 public class HttpRequestDecoder {
@@ -136,7 +136,7 @@ public class HttpRequestDecoder {
 	/**
 	 * @param args
 	 *
-	 * @author tanyaowu
+	 * 
 	 * 2017年2月22日 下午4:06:42
 	 *
 	 */
@@ -149,7 +149,7 @@ public class HttpRequestDecoder {
 	 * @param requestPacket
 	 * @param firstLine
 	 * @param bodyBytes
-	 * @author tanyaowu
+	 * 
 	 */
 	private static void parseBody(HttpRequestPacket requestPacket, RequestLine firstLine, byte[] bodyBytes) {
 		parseBodyFormat(requestPacket, requestPacket.getHeaders());
@@ -177,7 +177,7 @@ public class HttpRequestDecoder {
 	 * Content-Type : application/x-www-form-urlencoded; charset=UTF-8
 	 * @param requestPacket
 	 * @param headers
-	 * @author tanyaowu
+	 * 
 	 */
 	public static void parseBodyFormat(HttpRequestPacket requestPacket, Map<String, String> headers) {
 		String Content_Type = headers.get(HttpConst.RequestHeaderKey.Content_Type);
@@ -234,7 +234,7 @@ public class HttpRequestDecoder {
 	 * @param line
 	 * @return
 	 *
-	 * @author tanyaowu
+	 * 
 	 * 2017年2月23日 下午1:37:58
 	 *
 	 */
@@ -260,7 +260,7 @@ public class HttpRequestDecoder {
 	 * @param line
 	 * @return
 	 *
-	 * @author tanyaowu
+	 * 
 	 * 2017年2月23日 下午1:37:51
 	 *
 	 */
@@ -289,7 +289,7 @@ public class HttpRequestDecoder {
 	/**
 	 * 解析URLENCODED格式的消息体
 	 * 形如： 【Content-Type : application/x-www-form-urlencoded; charset=UTF-8】
-	 * @author tanyaowu
+	 * 
 	 */
 	private static void parseUrlencoded(HttpRequestPacket requestPacket, RequestLine firstLine, byte[] bodyBytes, String bodyString) {
 		String paramStr = "";
@@ -314,7 +314,7 @@ public class HttpRequestDecoder {
 	/**
 	 *
 	 *
-	 * @author tanyaowu
+	 * 
 	 * 2017年2月22日 下午4:06:42
 	 *
 	 */

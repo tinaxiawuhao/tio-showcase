@@ -16,7 +16,7 @@ import org.tio.examples.im.common.http.websocket.WebsocketPacket.Opcode;
 /**
  * 参考了baseio: https://gitee.com/generallycloud/baseio
  * com.generallycloud.nio.codec.http11.future.WebSocketReadFutureImpl
- * @author tanyaowu
+ * 
  *
  */
 public class WebsocketDecoder {
@@ -170,7 +170,7 @@ public class WebsocketDecoder {
 	/**
 	 * @param args
 	 *
-	 * @author tanyaowu
+	 * 
 	 * 2017年2月22日 下午4:06:42
 	 *
 	 */
@@ -181,7 +181,7 @@ public class WebsocketDecoder {
 	/**
 	 *
 	 *
-	 * @author tanyaowu
+	 * 
 	 * 2017年2月22日 下午4:06:42
 	 *
 	 */

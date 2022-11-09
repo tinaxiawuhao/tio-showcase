@@ -18,7 +18,7 @@ import cn.hutool.core.util.RandomUtil;
 
 /**
  *
- * @author tanyaowu
+ * 
  * 2017年5月9日 上午11:46:31
  */
 public class AuthRespHandler implements ImAioHandlerIntf {
@@ -50,7 +50,7 @@ public class AuthRespHandler implements ImAioHandlerIntf {
 	 * @param channelContext
 	 * @return
 	 * @throws Exception
-	 * @author tanyaowu
+	 * 
 	 */
 	@Override
 	public Object handler(ImPacket packet, ChannelContext channelContext) throws Exception {

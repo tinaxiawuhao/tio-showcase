@@ -24,20 +24,13 @@
 			<artifactId>common</artifactId>
 			<version>${project.version}</version>
 		</dependency>
-
-
-
-
 		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<scope>test</scope>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.16</version>
+			<optional>true</optional>
 		</dependency>
-		<dependency>
-			<groupId>org.testng</groupId>
-			<artifactId>testng</artifactId>
-			<scope>test</scope>
-		</dependency>
+
 	</dependencies>
 
 

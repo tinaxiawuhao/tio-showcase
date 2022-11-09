@@ -5,7 +5,7 @@ import org.tio.examples.im.common.ImPacket;
 
 /**
  *
- * @author tanyaowu
+ * 
  *
  */
 public interface ImAioHandlerIntf {
@@ -16,7 +16,7 @@ public interface ImAioHandlerIntf {
 	 * @return
 	 * @throws Exception
 	 *
-	 * @author tanyaowu
+	 * 
 	 * 2017年2月22日 下午2:02:30
 	 *
 	 */

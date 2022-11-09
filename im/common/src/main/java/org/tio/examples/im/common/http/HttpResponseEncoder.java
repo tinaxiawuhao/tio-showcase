@@ -13,7 +13,7 @@ import org.tio.core.GroupContext;
 
 /**
  *
- * @author tanyaowu
+ * 
  *
  */
 public class HttpResponseEncoder {
@@ -80,7 +80,7 @@ public class HttpResponseEncoder {
 	/**
 	 * @param args
 	 *
-	 * @author tanyaowu
+	 * 
 	 * 2017年2月22日 下午4:06:42
 	 *
 	 */
@@ -93,7 +93,7 @@ public class HttpResponseEncoder {
 	 * @param line
 	 * @return
 	 *
-	 * @author tanyaowu
+	 * 
 	 * 2017年2月23日 下午1:37:58
 	 *
 	 */
@@ -117,7 +117,7 @@ public class HttpResponseEncoder {
 	/**
 	 *
 	 *
-	 * @author tanyaowu
+	 * 
 	 * 2017年2月22日 下午4:06:42
 	 *
 	 */

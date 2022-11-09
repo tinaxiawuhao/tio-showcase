@@ -4,7 +4,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * @author tanyaowu
+ * 
  * 2017年5月16日 下午10:15:04
  */
 public class DbSearcherFactory {
@@ -32,7 +32,7 @@ public class DbSearcherFactory {
 
 	/**
 	 * @param args
-	 * @author tanyaowu
+	 * 
 	 */
 	public static void main(String[] args) {
 
@@ -40,7 +40,7 @@ public class DbSearcherFactory {
 
 	/**
 	 *
-	 * @author tanyaowu
+	 * 
 	 */
 	public DbSearcherFactory() {
 	}

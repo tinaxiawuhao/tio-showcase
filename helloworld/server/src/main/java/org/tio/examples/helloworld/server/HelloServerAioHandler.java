@@ -11,7 +11,7 @@ import org.tio.examples.helloworld.common.HelloPacket;
 import org.tio.server.intf.ServerAioHandler;
 
 /**
- * @author tanyaowu
+ * 
  */
 public class HelloServerAioHandler implements ServerAioHandler {
 

@@ -8,11 +8,7 @@ import org.tio.core.exception.AioDecodeException;
 import org.tio.core.intf.AioHandler;
 import org.tio.core.intf.Packet;
 
-/**
- *
- * @author tanyaowu
- * 2017年3月27日 上午12:14:12
- */
+
 public abstract class ShowcaseAbsAioHandler implements AioHandler {
 	/**
 	 * 解码：把接收到的ByteBuffer，解码成应用可以识别的业务消息包

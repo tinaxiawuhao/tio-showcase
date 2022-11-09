@@ -12,7 +12,7 @@ import org.tio.examples.im.common.packets.Command;
 /**
  * 参考了baseio: https://gitee.com/generallycloud/baseio
  * com.generallycloud.nio.codec.http11.WebSocketProtocolEncoder
- * @author tanyaowu
+ * 
  *
  */
 public class WebsocketEncoder {
@@ -92,7 +92,7 @@ public class WebsocketEncoder {
 	/**
 	 * @param args
 	 *
-	 * @author tanyaowu
+	 * 
 	 * 2017年2月22日 下午4:06:42
 	 *
 	 */
@@ -102,7 +102,7 @@ public class WebsocketEncoder {
 
 	/**
 	 *
-	 * @author tanyaowu
+	 * 
 	 * 2017年2月22日 下午4:06:42
 	 *
 	 */

@@ -5,7 +5,7 @@ package org.tio.examples.im.common.bs;
 
 /**
  *
- * @author tanyaowu
+ * 
  */
 
 public class JoinNotifyRespBody extends org.tio.examples.im.common.bs.BaseRespBody {

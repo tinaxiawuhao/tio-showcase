@@ -27,7 +27,7 @@ import org.tio.utils.lock.SetWithLock;
 
 /**
  *
- * @author tanyaowu
+ * 
  *
  */
 public class ImClientAioListener implements ClientAioListener {
@@ -38,7 +38,7 @@ public class ImClientAioListener implements ClientAioListener {
 	/**
 	 * @param args
 	 *
-	 * @author tanyaowu
+	 * 
 	 * 2016年12月16日 下午5:52:06
 	 *
 	 */
@@ -48,7 +48,7 @@ public class ImClientAioListener implements ClientAioListener {
 	/**
 	 *
 	 *
-	 * @author tanyaowu
+	 * 
 	 * 2016年12月16日 下午5:52:06
 	 *
 	 */
@@ -113,7 +113,7 @@ public class ImClientAioListener implements ClientAioListener {
 	 *
 	 * @param channelContext
 	 * @param packet
-	 * @author tanyaowu
+	 * 
 	 * 2016年12月20日 上午11:41:27
 	 *
 	 */

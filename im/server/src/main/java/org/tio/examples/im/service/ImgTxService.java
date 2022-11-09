@@ -16,7 +16,7 @@ import cn.hutool.core.io.FileUtil;
 
 /**
  * 头像
- * @author tanyaowu
+ *
  * 2017年5月14日 上午9:48:03
  */
 public class ImgTxService {
@@ -41,7 +41,7 @@ public class ImgTxService {
 
 	/**
 	 * @param args
-	 * @author tanyaowu
+	 *
 	 */
 	public static void main(String[] args) {
 		start();
@@ -141,7 +141,7 @@ public class ImgTxService {
 
 	/**
 	 *
-	 * @author tanyaowu
+	 *
 	 */
 	public ImgTxService() {
 
